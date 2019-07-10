@@ -1,0 +1,2 @@
+# pasa_cbentley_jpasc_pcore_test
+JUnit testing of pasa_cbentley_jpasc_pcore
