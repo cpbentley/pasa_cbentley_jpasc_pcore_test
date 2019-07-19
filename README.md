@@ -46,7 +46,7 @@ Test the pasa_cbentley_jpasc_pcore
   5. Select master branch
    ![eclipse_run_as.jpg](https://github.com/cpbentley/pasa_cbentley_app_hello_ctx/blob/master/res/tutorial/eclipse_git_branch.jpg)
   6. Next-Next
-  7. It should detect an Eclipse Project.
+  7. Select import Eclipse Project.
 
 * Import the final link (actual project of this repository) using the same process.
 * Optional: Check the source code.
@@ -61,13 +61,13 @@ num | id | Right Click -> Copy Link Address
 4 | pasa_dbolet_jpascalcoin_v3 | [Import Link](https://github.com/cpbentley/pasa_dbolet_jpascalcoin_v3)
 5 | pasa_cbentley_testing | [Import Link](https://github.com/cpbentley/pasa_cbentley_testing)
 5 | pasa_cbentley_jpasc_pcore | [Import Link](https://github.com/cpbentley/pasa_cbentley_jpasc_pcore)
-
 final | pasa_cbentley_jpasc_pcore_test | [Import Link](https://github.com/cpbentley/pasa_cbentley_jpasc_pcore_test)
 
 
 #### Run Test Cases within Eclipse
 [Up](#table-of-contents)
-In Eclipse Project **_pasa_cbentley_jpasc_pcore_test_**, src folder
+
+Search in Eclipse for project **_pasa_cbentley_jpasc_pcore_test_**, inside src folder
 
  ![eclipse_run_as.jpg](https://github.com/cpbentley/pasa_cbentley_app_hello_ctx/blob/master/res/tutorial/eclipse_run_unit_test.jpg)
  
