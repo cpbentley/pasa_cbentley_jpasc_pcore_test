@@ -8,9 +8,9 @@ import java.util.List;
 
 import com.github.davidbolet.jpascalcoin.api.model.Operation;
 
-import pasa.cbentley.jpasc.pcore.TestPCoreAbstract;
 import pasa.cbentley.jpasc.pcore.listlisteners.ListenerHolderOperation;
 import pasa.cbentley.jpasc.pcore.task.list.dbolet.operation.ListTaskOperationPending;
+import pasa.cbentley.jpasc.pcore.tests.TestPCoreAbstract;
 
 public class TestListTaskOperationPending extends TestPCoreAbstract {
 

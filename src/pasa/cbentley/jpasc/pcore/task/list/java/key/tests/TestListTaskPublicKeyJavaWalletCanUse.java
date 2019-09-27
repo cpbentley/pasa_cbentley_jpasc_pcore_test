@@ -2,11 +2,11 @@ package pasa.cbentley.jpasc.pcore.task.list.java.key.tests;
 
 import java.util.List;
 
-import pasa.cbentley.jpasc.pcore.TestPCoreAbstract;
 import pasa.cbentley.jpasc.pcore.domain.java.PublicKeyJava;
 import pasa.cbentley.jpasc.pcore.listlisteners.ListenerHolder;
 import pasa.cbentley.jpasc.pcore.task.list.dbolet.key.tests.TestListTaskPublicKeyWalletCanUse;
 import pasa.cbentley.jpasc.pcore.task.list.java.key.ListTaskPublicKeyJavaWalletCanUse;
+import pasa.cbentley.jpasc.pcore.tests.TestPCoreAbstract;
 
 public abstract class TestListTaskPublicKeyJavaWalletCanUse extends TestPCoreAbstract {
 

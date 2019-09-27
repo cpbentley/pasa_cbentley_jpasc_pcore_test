@@ -8,9 +8,9 @@ import java.util.List;
 
 import com.github.davidbolet.jpascalcoin.api.model.Block;
 
-import pasa.cbentley.jpasc.pcore.TestPCoreAbstract;
 import pasa.cbentley.jpasc.pcore.listlisteners.ListenerHolderBlock;
 import pasa.cbentley.jpasc.pcore.task.list.dbolet.block.ListTaskBlockInThePast;
+import pasa.cbentley.jpasc.pcore.tests.TestPCoreAbstract;
 
 public class TestListTaskBlockInThePast  extends TestPCoreAbstract {
 

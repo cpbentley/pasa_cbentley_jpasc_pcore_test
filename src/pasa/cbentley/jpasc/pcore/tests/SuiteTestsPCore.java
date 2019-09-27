@@ -1,4 +1,4 @@
-package pasa.cbentley.jpasc.pcore;
+package pasa.cbentley.jpasc.pcore.tests;
 
 import junit.framework.Test;
 import junit.framework.TestSuite;

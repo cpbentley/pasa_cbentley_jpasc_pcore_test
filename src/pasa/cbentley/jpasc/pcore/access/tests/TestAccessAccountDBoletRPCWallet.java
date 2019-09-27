@@ -6,8 +6,8 @@ package pasa.cbentley.jpasc.pcore.access.tests;
 
 import com.github.davidbolet.jpascalcoin.api.model.Account;
 
-import pasa.cbentley.jpasc.pcore.TestPCoreAbstract;
 import pasa.cbentley.jpasc.pcore.access.AccessAccountDBoletRPCWallet;
+import pasa.cbentley.jpasc.pcore.tests.TestPCoreAbstract;
 
 
 /**

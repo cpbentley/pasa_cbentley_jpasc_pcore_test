@@ -8,10 +8,10 @@ import java.util.List;
 
 import com.github.davidbolet.jpascalcoin.api.model.Block;
 
-import pasa.cbentley.jpasc.pcore.TestPCoreAbstract;
 import pasa.cbentley.jpasc.pcore.listlisteners.ListenerHolderBlock;
 import pasa.cbentley.jpasc.pcore.pages.PagerBlock;
 import pasa.cbentley.jpasc.pcore.task.list.dbolet.block.ListTaskBlockRange;
+import pasa.cbentley.jpasc.pcore.tests.TestPCoreAbstract;
 
 public class TestListTaskBlockRange extends TestPCoreAbstract {
 

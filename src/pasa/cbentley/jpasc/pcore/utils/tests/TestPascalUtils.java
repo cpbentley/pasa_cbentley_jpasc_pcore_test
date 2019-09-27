@@ -7,8 +7,8 @@ package pasa.cbentley.jpasc.pcore.utils.tests;
 import org.junit.Test;
 
 import pasa.cbentley.core.src5.ctx.C5Ctx;
-import pasa.cbentley.jpasc.pcore.TestPCoreAbstract;
 import pasa.cbentley.jpasc.pcore.ctx.PCoreCtx;
+import pasa.cbentley.jpasc.pcore.tests.TestPCoreAbstract;
 import pasa.cbentley.jpasc.pcore.utils.PascalUtils;
 import pasa.cbentley.testing.BentleyTestCase;
 

@@ -12,12 +12,12 @@ import pasa.cbentley.core.src4.logging.BaseDLogger;
 import pasa.cbentley.core.src4.logging.IConfig;
 import pasa.cbentley.core.src4.logging.ITechLvl;
 import pasa.cbentley.core.src4.logging.ITechTags;
-import pasa.cbentley.jpasc.pcore.TestPCoreAbstract;
 import pasa.cbentley.jpasc.pcore.access.AccessAccountDBoletRPCChain;
 import pasa.cbentley.jpasc.pcore.filter.account.FilterAccountName;
 import pasa.cbentley.jpasc.pcore.listlisteners.ListenerHolderAccount;
 import pasa.cbentley.jpasc.pcore.pages.PagerAccount;
 import pasa.cbentley.jpasc.pcore.task.list.dbolet.account.chain.ListTaskAccountChainBalanceMinMax;
+import pasa.cbentley.jpasc.pcore.tests.TestPCoreAbstract;
 
 /**
  * For those tests we want single access 
