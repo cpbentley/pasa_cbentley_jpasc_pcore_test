@@ -3,7 +3,7 @@ package pasa.cbentley.jpasc.pcore.task.list.java.key.tests;
 import java.util.List;
 
 import pasa.cbentley.core.src4.logging.BaseDLogger;
-import pasa.cbentley.core.src4.logging.IConfig;
+import pasa.cbentley.core.src4.logging.IDLogConfig;
 import pasa.cbentley.core.src4.logging.ITechLvl;
 import pasa.cbentley.core.src4.logging.ITechTags;
 import pasa.cbentley.jpasc.pcore.domain.java.PublicKeyJava;
@@ -29,7 +29,7 @@ public class TestListTaskPublicKeyJavaChainAll extends TestPCoreAbstract {
    public void testListTaskPublicKeyJavaChainAll() {
 
       BaseDLogger loggerFirst = (BaseDLogger) uc.toDLog();
-      IConfig config = loggerFirst.getDefault().getConfig();
+      IDLogConfig config = loggerFirst.getDefault().getConfig();
       config.setLevelGlobal(ITechLvl.LVL_03_FINEST);
       config.setFlagTag(ITechTags.FLAG_17_PRINT_TEST, true);
       config.setFlagTag(ITechTags.FLAG_15_PRINT_DATA, true);

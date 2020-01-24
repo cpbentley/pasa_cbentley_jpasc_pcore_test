@@ -9,7 +9,7 @@ import java.util.List;
 import com.github.davidbolet.jpascalcoin.api.model.Account;
 
 import pasa.cbentley.core.src4.logging.BaseDLogger;
-import pasa.cbentley.core.src4.logging.IConfig;
+import pasa.cbentley.core.src4.logging.IDLogConfig;
 import pasa.cbentley.core.src4.logging.ITechLvl;
 import pasa.cbentley.core.src4.logging.ITechTags;
 import pasa.cbentley.jpasc.pcore.access.AccessAccountDBoletRPCChain;
@@ -51,7 +51,7 @@ public class TestAccessAccountDBoletRPCChain extends TestPCoreAbstract {
    public void testGetAccountsWithNameNull() {
 
       BaseDLogger loggerFirst = (BaseDLogger) uc.toDLog();
-      IConfig config = loggerFirst.getDefault().getConfig();
+      IDLogConfig config = loggerFirst.getDefault().getConfig();
       config.setLevelGlobal(ITechLvl.LVL_03_FINEST);
       config.setFlagTag(ITechTags.FLAG_17_PRINT_TEST, true);
       config.setFlagTag(ITechTags.FLAG_15_PRINT_DATA, true);
@@ -139,7 +139,7 @@ public class TestAccessAccountDBoletRPCChain extends TestPCoreAbstract {
    public void testGetAccountsWithNameFilter() {
 
       BaseDLogger loggerFirst = (BaseDLogger) uc.toDLog();
-      IConfig config = loggerFirst.getDefault().getConfig();
+      IDLogConfig config = loggerFirst.getDefault().getConfig();
       config.setLevelGlobal(ITechLvl.LVL_03_FINEST);
       config.setFlagTag(ITechTags.FLAG_17_PRINT_TEST, true);
       config.setFlagTag(ITechTags.FLAG_15_PRINT_DATA, true);
@@ -303,7 +303,7 @@ public class TestAccessAccountDBoletRPCChain extends TestPCoreAbstract {
    public void testGetAccountsRangePrice() throws Exception {
 
       BaseDLogger loggerFirst = (BaseDLogger) uc.toDLog();
-      IConfig config = loggerFirst.getDefault().getConfig();
+      IDLogConfig config = loggerFirst.getDefault().getConfig();
       config.setLevelGlobal(ITechLvl.LVL_03_FINEST);
       config.setFlagTag(ITechTags.FLAG_17_PRINT_TEST, true);
       config.setFlagTag(ITechTags.FLAG_15_PRINT_DATA, true);
@@ -376,7 +376,7 @@ public class TestAccessAccountDBoletRPCChain extends TestPCoreAbstract {
    public void testGetAccountsRangeAge() throws Exception {
 
       BaseDLogger loggerFirst = (BaseDLogger) uc.toDLog();
-      IConfig config = loggerFirst.getDefault().getConfig();
+      IDLogConfig config = loggerFirst.getDefault().getConfig();
       config.setLevelGlobal(ITechLvl.LVL_03_FINEST);
       config.setFlagTag(ITechTags.FLAG_17_PRINT_TEST, true);
       config.setFlagTag(ITechTags.FLAG_15_PRINT_DATA, true);

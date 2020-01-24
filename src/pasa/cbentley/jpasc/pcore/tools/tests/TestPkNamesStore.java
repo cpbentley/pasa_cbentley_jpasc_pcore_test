@@ -3,7 +3,7 @@ package pasa.cbentley.jpasc.pcore.tools.tests;
 import java.io.File;
 
 import pasa.cbentley.core.src4.logging.BaseDLogger;
-import pasa.cbentley.core.src4.logging.IConfig;
+import pasa.cbentley.core.src4.logging.IDLogConfig;
 import pasa.cbentley.core.src4.logging.ITechLvl;
 import pasa.cbentley.core.src4.logging.ITechTags;
 import pasa.cbentley.jpasc.pcore.tests.TestPCoreAbstract;
