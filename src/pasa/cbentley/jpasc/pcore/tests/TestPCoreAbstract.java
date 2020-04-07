@@ -19,9 +19,9 @@ import pasa.cbentley.core.src4.logging.ITechTags;
 import pasa.cbentley.core.src5.ctx.C5Ctx;
 import pasa.cbentley.jpasc.pcore.ctx.ITechPCore;
 import pasa.cbentley.jpasc.pcore.ctx.PCoreCtx;
-import pasa.cbentley.testing.BentleyTestCase;
+import pasa.cbentley.testing.engine.TestCaseBentley;
 
-public abstract class TestPCoreAbstract extends BentleyTestCase {
+public abstract class TestPCoreAbstract extends TestCaseBentley {
 
    protected PCoreCtx pc;
 

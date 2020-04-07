@@ -10,7 +10,7 @@ import pasa.cbentley.core.src5.ctx.C5Ctx;
 import pasa.cbentley.jpasc.pcore.ctx.PCoreCtx;
 import pasa.cbentley.jpasc.pcore.tests.TestPCoreAbstract;
 import pasa.cbentley.jpasc.pcore.utils.PascalUtils;
-import pasa.cbentley.testing.BentleyTestCase;
+import pasa.cbentley.testing.engine.TestCaseBentley;
 
 public class TestPascalUtils extends TestPCoreAbstract {
 
