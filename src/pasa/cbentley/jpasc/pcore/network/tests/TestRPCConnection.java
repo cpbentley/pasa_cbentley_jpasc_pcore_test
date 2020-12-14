@@ -1,10 +1,9 @@
 package pasa.cbentley.jpasc.pcore.network.tests;
 
-import com.github.davidbolet.jpascalcoin.api.model.Account;
-
 import pasa.cbentley.core.src4.structs.synch.FairLock;
-import pasa.cbentley.jpasc.pcore.dboletbridge.IPascalCoinClient;
+import pasa.cbentley.jpasc.pcore.client.IPascalCoinClient;
 import pasa.cbentley.jpasc.pcore.network.RPCConnection;
+import pasa.cbentley.jpasc.pcore.rpc.model.Account;
 import pasa.cbentley.jpasc.pcore.tests.TestPCoreAbstract;
 
 public class TestRPCConnection extends TestPCoreAbstract {

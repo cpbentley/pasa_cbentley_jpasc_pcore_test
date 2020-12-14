@@ -6,10 +6,9 @@ package pasa.cbentley.jpasc.pcore.task.list.dbolet.key.tests;
 
 import java.util.List;
 
-import com.github.davidbolet.jpascalcoin.api.model.PublicKey;
-
 import pasa.cbentley.jpasc.pcore.listlisteners.ListenerHolder;
 import pasa.cbentley.jpasc.pcore.pages.PagerPublicKey;
+import pasa.cbentley.jpasc.pcore.rpc.model.PublicKey;
 import pasa.cbentley.jpasc.pcore.task.list.dbolet.key.ListTaskPublicKeyWalletCanUse;
 import pasa.cbentley.jpasc.pcore.tests.TestPCoreAbstract;
 

@@ -6,9 +6,8 @@ package pasa.cbentley.jpasc.pcore.task.list.dbolet.operation.tests;
 
 import java.util.List;
 
-import com.github.davidbolet.jpascalcoin.api.model.Operation;
-
 import pasa.cbentley.jpasc.pcore.listlisteners.ListenerHolderOperation;
+import pasa.cbentley.jpasc.pcore.rpc.model.Operation;
 import pasa.cbentley.jpasc.pcore.task.list.dbolet.operation.ListTaskOperationPending;
 import pasa.cbentley.jpasc.pcore.tests.TestPCoreAbstract;
 

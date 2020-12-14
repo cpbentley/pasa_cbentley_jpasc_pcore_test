@@ -6,8 +6,6 @@ package pasa.cbentley.jpasc.pcore.access.tests;
 
 import java.util.List;
 
-import com.github.davidbolet.jpascalcoin.api.model.Account;
-
 import pasa.cbentley.core.src4.logging.BaseDLogger;
 import pasa.cbentley.core.src4.logging.IDLogConfig;
 import pasa.cbentley.core.src4.logging.ITechLvl;
@@ -16,6 +14,7 @@ import pasa.cbentley.jpasc.pcore.access.AccessAccountDBoletRPCChain;
 import pasa.cbentley.jpasc.pcore.filter.account.FilterAccountName;
 import pasa.cbentley.jpasc.pcore.listlisteners.ListenerHolderAccount;
 import pasa.cbentley.jpasc.pcore.pages.PagerAccount;
+import pasa.cbentley.jpasc.pcore.rpc.model.Account;
 import pasa.cbentley.jpasc.pcore.task.list.dbolet.account.chain.ListTaskAccountChainBalanceMinMax;
 import pasa.cbentley.jpasc.pcore.tests.TestPCoreAbstract;
 

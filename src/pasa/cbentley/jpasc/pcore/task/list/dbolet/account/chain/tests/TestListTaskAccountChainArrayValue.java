@@ -2,10 +2,9 @@ package pasa.cbentley.jpasc.pcore.task.list.dbolet.account.chain.tests;
 
 import java.util.List;
 
-import com.github.davidbolet.jpascalcoin.api.model.Account;
-
 import pasa.cbentley.jpasc.pcore.listlisteners.ListenerHolder;
 import pasa.cbentley.jpasc.pcore.pages.PagerAccountArray;
+import pasa.cbentley.jpasc.pcore.rpc.model.Account;
 import pasa.cbentley.jpasc.pcore.task.list.dbolet.account.chain.ListTaskAccountChainArrayValue;
 import pasa.cbentley.jpasc.pcore.tests.TestPCoreAbstract;
 

@@ -6,9 +6,8 @@ package pasa.cbentley.jpasc.pcore.pages.tests;
 
 import java.util.List;
 
-import com.github.davidbolet.jpascalcoin.api.model.Account;
-
 import pasa.cbentley.jpasc.pcore.pages.PagerAccount;
+import pasa.cbentley.jpasc.pcore.rpc.model.Account;
 import pasa.cbentley.jpasc.pcore.tests.TestPCoreAbstract;
 
 public class TestPagerAccount extends TestPCoreAbstract {

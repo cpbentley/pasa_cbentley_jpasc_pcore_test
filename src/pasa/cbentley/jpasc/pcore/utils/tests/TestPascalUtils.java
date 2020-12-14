@@ -7,6 +7,7 @@ package pasa.cbentley.jpasc.pcore.utils.tests;
 import org.junit.Test;
 
 import pasa.cbentley.core.src5.ctx.C5Ctx;
+import pasa.cbentley.jpasc.pcore.ctx.ITechPasc;
 import pasa.cbentley.jpasc.pcore.ctx.PCoreCtx;
 import pasa.cbentley.jpasc.pcore.tests.TestPCoreAbstract;
 import pasa.cbentley.jpasc.pcore.utils.PascalUtils;
@@ -34,9 +35,9 @@ public class TestPascalUtils extends TestPCoreAbstract {
 
    public void testPascal64StringEncode_Max63() throws Exception {
 
-      assertEquals(64, PascalUtils.PASCAL64_CHARS.length());
+      assertEquals(64, ITechPasc.PASCAL64_CHARS.length());
       try {
-         pu.pascal64StringEncode(PascalUtils.PASCAL64_CHARS);
+         pu.pascal64StringEncode(ITechPasc.PASCAL64_CHARS);
          super.assertNotReachable("Maximum 63 chars");
       } catch (IllegalArgumentException e) {
          assertTrue(true);
@@ -54,11 +55,11 @@ public class TestPascalUtils extends TestPCoreAbstract {
 
    public void testPascal64StringEncode_Sub63() throws Exception {
 
-      assertEquals(64, PascalUtils.PASCAL64_CHARS.length());
-      byte[] data = pu.pascal64StringEncode(PascalUtils.PASCAL64_CHARS, 1, 20);
+      assertEquals(64, ITechPasc.PASCAL64_CHARS.length());
+      byte[] data = pu.pascal64StringEncode(ITechPasc.PASCAL64_CHARS, 1, 20);
       String decoded = pu.pascal64StringDecode(data, 0);
       System.out.println(decoded);
-      assertEquals(PascalUtils.PASCAL64_CHARS.substring(1, 20), decoded);
+      assertEquals(ITechPasc.PASCAL64_CHARS.substring(1, 20), decoded);
 
    }
 

@@ -1,8 +1,7 @@
 package pasa.cbentley.jpasc.pcore.task.list.dbolet.account.wallet.tests;
 
-import com.github.davidbolet.jpascalcoin.api.model.PublicKey;
-
 import pasa.cbentley.jpasc.pcore.listlisteners.ListenerPrinterAccount;
+import pasa.cbentley.jpasc.pcore.rpc.model.PublicKey;
 import pasa.cbentley.jpasc.pcore.task.list.dbolet.account.wallet.ListTaskAccountWalletPubKey;
 import pasa.cbentley.jpasc.pcore.tests.TestPCoreAbstract;
 

@@ -7,10 +7,6 @@ package pasa.cbentley.jpasc.pcore.tests;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.github.davidbolet.jpascalcoin.api.model.Account;
-import com.github.davidbolet.jpascalcoin.api.model.Block;
-import com.github.davidbolet.jpascalcoin.api.model.Operation;
-
 import pasa.cbentley.core.src4.helpers.BasicPrefs;
 import pasa.cbentley.core.src4.logging.BaseDLogger;
 import pasa.cbentley.core.src4.logging.IDLogConfig;
@@ -19,6 +15,9 @@ import pasa.cbentley.core.src4.logging.ITechTags;
 import pasa.cbentley.core.src5.ctx.C5Ctx;
 import pasa.cbentley.jpasc.pcore.ctx.ITechPCore;
 import pasa.cbentley.jpasc.pcore.ctx.PCoreCtx;
+import pasa.cbentley.jpasc.pcore.rpc.model.Account;
+import pasa.cbentley.jpasc.pcore.rpc.model.Block;
+import pasa.cbentley.jpasc.pcore.rpc.model.Operation;
 import pasa.cbentley.testing.engine.TestCaseBentley;
 
 public abstract class TestPCoreAbstract extends TestCaseBentley {
@@ -77,7 +76,7 @@ public abstract class TestPCoreAbstract extends TestCaseBentley {
    public List<Account> createListTest0_4() {
       List<Account> list = new ArrayList<>(5);
       for (int i = 0; i < 5; i++) {
-         Account ac1 = new Account();
+         Account ac1 = new Account(pc);
          ac1.setAccount(i);
          list.add(ac1);
       }
@@ -116,7 +115,7 @@ public abstract class TestPCoreAbstract extends TestCaseBentley {
    public List<Account> createListTest5_9() {
       List<Account> list = new ArrayList<>(5);
       for (int i = 5; i < 10; i++) {
-         Account ac1 = new Account();
+         Account ac1 = new Account(pc);
          ac1.setAccount(i);
          list.add(ac1);
       }
@@ -130,7 +129,7 @@ public abstract class TestPCoreAbstract extends TestCaseBentley {
    public List<Account> createListTest15_19() {
       List<Account> list = new ArrayList<>(5);
       for (int i = 15; i < 20; i++) {
-         Account ac1 = new Account();
+         Account ac1 = new Account(pc);
          ac1.setAccount(i);
          list.add(ac1);
       }
@@ -144,7 +143,7 @@ public abstract class TestPCoreAbstract extends TestCaseBentley {
    public List<Account> createListTest0_99() {
       List<Account> list = new ArrayList<>(100);
       for (int i = 0; i < 100; i++) {
-         Account ac1 = new Account();
+         Account ac1 = new Account(pc);
          ac1.setAccount(i);
          list.add(ac1);
       }
