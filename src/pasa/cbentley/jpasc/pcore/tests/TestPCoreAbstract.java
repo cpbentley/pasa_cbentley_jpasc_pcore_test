@@ -13,6 +13,9 @@ import pasa.cbentley.core.src4.logging.IDLogConfig;
 import pasa.cbentley.core.src4.logging.ITechLvl;
 import pasa.cbentley.core.src4.logging.ITechTags;
 import pasa.cbentley.core.src5.ctx.C5Ctx;
+import pasa.cbentley.jpasc.jsonrpc.ctx.JPascJsonRpcCtx;
+import pasa.cbentley.jpasc.jsonrpc.engine.JPascJsonRPCClientFactory;
+import pasa.cbentley.jpasc.pcore.ctx.IPascalCoinClientFactory;
 import pasa.cbentley.jpasc.pcore.ctx.ITechPCore;
 import pasa.cbentley.jpasc.pcore.ctx.PCoreCtx;
 import pasa.cbentley.jpasc.pcore.rpc.model.Account;
@@ -53,6 +56,12 @@ public abstract class TestPCoreAbstract extends TestCaseBentley {
 
       C5Ctx c5 = new C5Ctx(uc);
       pc = new PCoreCtx(uc, c5);
+      
+      //set up the RPC factory
+      JPascJsonRpcCtx jjc = new JPascJsonRpcCtx(pc);
+      IPascalCoinClientFactory fac = new JPascJsonRPCClientFactory(jjc);
+      pc.setPascalCoinClientFactory(fac);
+      
       BasicPrefs prefs = new BasicPrefs(uc);
       pc.setPrefs(prefs);
       //don't auto lock wallet on connection
