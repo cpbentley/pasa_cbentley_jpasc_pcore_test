@@ -12,7 +12,6 @@ import pasa.cbentley.jpasc.pcore.tools.PkNamesStore;
 public class TestPkNamesStore extends TestPCoreAbstract {
 
    public TestPkNamesStore() {
-      super(false);
    }
 
    private void logBasic() {

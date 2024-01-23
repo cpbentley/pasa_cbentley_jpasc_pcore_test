@@ -35,16 +35,9 @@ public abstract class TestPCoreAbstract extends TestCaseBentley {
    /**
     * by default hides sysout when test is valid
     */
-   public TestPCoreAbstract(boolean b) {
-      super(b);
+   public TestPCoreAbstract() {
    }
 
-   /**
-    * by default hides sysout when test is valid
-    */
-   public TestPCoreAbstract() {
-      super(true);
-   }
 
    public void setupAbstract() {
 

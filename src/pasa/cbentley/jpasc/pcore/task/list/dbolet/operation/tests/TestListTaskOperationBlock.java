@@ -16,7 +16,6 @@ public class TestListTaskOperationBlock extends TestPCoreAbstract {
 
 
    public TestListTaskOperationBlock() {
-      super(false);
    }
 
    

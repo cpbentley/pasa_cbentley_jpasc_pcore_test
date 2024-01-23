@@ -8,7 +8,6 @@ public class TestListTaskAccountWallet extends TestPCoreAbstract {
 
 
    public TestListTaskAccountWallet() {
-      super(false);
    }
 
    public void setupAbstract() {

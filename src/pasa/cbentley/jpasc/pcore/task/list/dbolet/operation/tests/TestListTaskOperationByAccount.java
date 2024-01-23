@@ -15,7 +15,6 @@ import pasa.cbentley.jpasc.pcore.tests.TestPCoreAbstract;
 public class TestListTaskOperationByAccount extends TestPCoreAbstract {
 
    public TestListTaskOperationByAccount() {
-      super(false);
    }
 
    public void testAccount604653() {

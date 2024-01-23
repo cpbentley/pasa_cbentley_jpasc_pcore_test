@@ -9,7 +9,6 @@ public class TestListTaskAccountWalletPubKey extends TestPCoreAbstract {
 
 
    public TestListTaskAccountWalletPubKey() {
-      super(false);
    }
 
    public void setupAbstract() {

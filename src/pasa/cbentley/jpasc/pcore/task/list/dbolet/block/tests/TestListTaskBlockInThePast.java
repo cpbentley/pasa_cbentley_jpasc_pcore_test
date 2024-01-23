@@ -15,7 +15,6 @@ public class TestListTaskBlockInThePast  extends TestPCoreAbstract {
 
 
    public TestListTaskBlockInThePast() {
-      super(false);
    }
    
 

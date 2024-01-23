@@ -22,7 +22,6 @@ public abstract class TestAccessAccountDBoletRPCWallet extends TestPCoreAbstract
    private AccessAccountDBoletRPCWallet aa;
 
    public TestAccessAccountDBoletRPCWallet() {
-      super(false);
    }
 
    public void setupAbstract() {

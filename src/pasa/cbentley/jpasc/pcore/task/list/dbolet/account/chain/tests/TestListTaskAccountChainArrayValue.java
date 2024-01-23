@@ -11,7 +11,6 @@ import pasa.cbentley.jpasc.pcore.tests.TestPCoreAbstract;
 public class TestListTaskAccountChainArrayValue extends TestPCoreAbstract {
 
    public TestListTaskAccountChainArrayValue() {
-      super(false);
    }
 
    public void setupAbstract() {

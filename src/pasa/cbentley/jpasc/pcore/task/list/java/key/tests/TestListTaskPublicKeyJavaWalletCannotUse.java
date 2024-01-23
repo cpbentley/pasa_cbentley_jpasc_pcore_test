@@ -10,7 +10,6 @@ import pasa.cbentley.jpasc.pcore.tests.TestPCoreAbstract;
 public abstract class TestListTaskPublicKeyJavaWalletCannotUse  extends TestPCoreAbstract {
 
    public TestListTaskPublicKeyJavaWalletCannotUse() {
-      super(false);
    }
 
    public void setupAbstract() {

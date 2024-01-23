@@ -15,7 +15,6 @@ import pasa.cbentley.jpasc.pcore.tests.TestPCoreAbstract;
 public class TestListTaskBlockRange extends TestPCoreAbstract {
 
    public TestListTaskBlockRange() {
-      super(false);
    }
 
    public void testListTaskBlockRangePageDefault() {

@@ -7,7 +7,6 @@ import pasa.cbentley.jpasc.pcore.tests.TestPCoreAbstract;
 public class TestListTaskAccountWalletBalance extends TestPCoreAbstract {
 
    public TestListTaskAccountWalletBalance() {
-      super(false);
    }
 
    public void setupAbstract() {

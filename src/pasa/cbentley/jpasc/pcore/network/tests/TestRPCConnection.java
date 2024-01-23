@@ -9,7 +9,6 @@ import pasa.cbentley.jpasc.pcore.tests.TestPCoreAbstract;
 public class TestRPCConnection extends TestPCoreAbstract {
 
    public TestRPCConnection() {
-      super(false);
    }
 
    public void setupAbstract() {

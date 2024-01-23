@@ -29,7 +29,6 @@ public class TestAccessAccountDBoletRPCChain extends TestPCoreAbstract {
    private AccessAccountDBoletRPCChain aa;
 
    public TestAccessAccountDBoletRPCChain() {
-      super(false);
    }
 
    public void setupAbstract() {

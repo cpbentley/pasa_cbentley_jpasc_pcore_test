@@ -17,7 +17,6 @@ import pasa.cbentley.jpasc.pcore.tests.TestPCoreAbstract;
 public class TestListTaskPublicKeyJavaChainAll extends TestPCoreAbstract {
 
    public TestListTaskPublicKeyJavaChainAll() {
-      super(false);
    }
 
    private boolean isBigTest = false;

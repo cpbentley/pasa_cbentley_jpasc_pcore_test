@@ -15,7 +15,6 @@ public class TestListTaskOperationPending extends TestPCoreAbstract {
 
 
    public TestListTaskOperationPending() {
-      super(false);
    }
 
    

@@ -14,7 +14,6 @@ public class TestPagerAccount extends TestPCoreAbstract {
 
 
    public TestPagerAccount() {
-      super(false);
    }
 
    public void setupAbstract() {

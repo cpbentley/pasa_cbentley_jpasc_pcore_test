@@ -15,6 +15,7 @@ import pasa.cbentley.testing.engine.TestCaseBentley;
 
 public class TestPascalUtils extends TestPCoreAbstract {
 
+
    private PascalUtils pu;
 
    public void setupAbstract() {

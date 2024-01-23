@@ -11,7 +11,6 @@ public class TestKeyNameProvider extends TestPCoreAbstract {
    private  KeyNameProvider prov;
    
    public TestKeyNameProvider() {
-      super(false);
    }
 
    /**
